@@ -11,4 +11,4 @@ def insert_school(mongo_collection, **kwargs):
         mongo_collection: collection
         **kwargs: key-value pairs
     """
-    return mongo_collection.insert_many(dict(kwargs))
+    return mongo_collection.insert_one(dict(kwargs))
