@@ -107,4 +107,3 @@ class Cache:
         if fn == int:
             return get_int(key)
         return get_str(key)
-
